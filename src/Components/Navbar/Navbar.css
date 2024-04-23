@@ -26,11 +26,21 @@
     width: 30px;
 }
 .nav-links {
-    margin-left: auto; 
+  left: 550px;
+  gap: 120px;
+  position: fixed;
+   display: flex;
+   width: 80px;
+   color: white;
+  }
+
+button.nav-link {
+
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
   }
   
-  .nav-link {
-    margin-right: 200px; 
-    text-decoration: none;
-    color: white;
-  }
